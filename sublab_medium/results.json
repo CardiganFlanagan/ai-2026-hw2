@@ -1,0 +1,187 @@
+{
+  "plain": {
+    "peak_tokens": 1195,
+    "token_log": [
+      {
+        "turn": 0,
+        "tokens_before_call": 54
+      },
+      {
+        "turn": 1,
+        "tokens_before_call": 122
+      },
+      {
+        "turn": 2,
+        "tokens_before_call": 222
+      },
+      {
+        "turn": 3,
+        "tokens_before_call": 313
+      },
+      {
+        "turn": 4,
+        "tokens_before_call": 412
+      },
+      {
+        "turn": 5,
+        "tokens_before_call": 540
+      },
+      {
+        "turn": 6,
+        "tokens_before_call": 656
+      },
+      {
+        "turn": 7,
+        "tokens_before_call": 802
+      },
+      {
+        "turn": 8,
+        "tokens_before_call": 927
+      },
+      {
+        "turn": 10,
+        "tokens_before_call": 1014
+      },
+      {
+        "turn": 11,
+        "tokens_before_call": 1195
+      }
+    ],
+    "probes": [
+      {
+        "id": "Q-1",
+        "question": "Which applicant am I, and what is my number?",
+        "answer": "You are **Daniyar Qoshan**, applicant **A-202**.",
+        "retrieved": true
+      },
+      {
+        "id": "Q-2",
+        "question": "Which document is still missing from my file?",
+        "answer": "The **ID card** is the clearly outstanding document: it has not yet been uploaded. You plan to bring it to the office on **Thursday**.\n\nThe office should also confirm whether your **employer letter** requires the original or whether the scan is sufficient, and whether your **transcript** and income-band certificate were received.",
+        "retrieved": true
+      },
+      {
+        "id": "Q-3",
+        "question": "What is my income band, and what amount does that come to?",
+        "answer": "Your income band is **Band 2**, according to your family’s certificate.\n\nThe corresponding amount **has not been established** because it depends on the specific grant programme and its current payment schedule. Please provide the grant name or ask the office on Thursday; they can confirm the exact stipend or tuition-support amount.",
+        "retrieved": false
+      },
+      {
+        "id": "Q-4",
+        "question": "Which day of the week can I come to the office?",
+        "answer": "You said you can come to the office **on Thursdays**, because you have lab work on the other days.",
+        "retrieved": true
+      },
+      {
+        "id": "Q-5",
+        "question": "What did I ask you about my employer?",
+        "answer": "You asked whether a **scanned letter from your employer** would count, or whether you had to provide the **original**.\n\nI replied that a clear signed scan/PDF is often accepted initially, but the office may later require the original or a certified copy. I also noted that it should be on official letterhead, dated, signed by an authorized representative, and include your employment and income details.",
+        "retrieved": true
+      }
+    ]
+  },
+  "compressed": {
+    "peak_tokens": 815,
+    "token_log": [
+      {
+        "turn": 0,
+        "tokens_before_call": 54
+      },
+      {
+        "turn": 1,
+        "tokens_before_call": 103
+      },
+      {
+        "turn": 2,
+        "tokens_before_call": 202
+      },
+      {
+        "turn": 3,
+        "tokens_before_call": 300
+      },
+      {
+        "turn": 4,
+        "tokens_before_call": 392
+      },
+      {
+        "turn": 5,
+        "tokens_before_call": 503
+      },
+      {
+        "turn": 6,
+        "tokens_before_call": 606
+      },
+      {
+        "turn": 7,
+        "tokens_before_call": 724
+      },
+      {
+        "turn": 8,
+        "tokens_before_call": 815
+      },
+      {
+        "turn": 10,
+        "tokens_before_call": 245
+      },
+      {
+        "turn": 11,
+        "tokens_before_call": 373
+      }
+    ],
+    "state": {
+      "applicant_id": "A-202",
+      "topic": "Study grant application",
+      "facts": [
+        "Applicant name is Daniyar Qoshan.",
+        "Applicant sent a transcript last week.",
+        "Applicant's family certificate states income band 2.",
+        "Applicant could not upload an ID card because the scanner at home broke.",
+        "Applicant's sister, Aruzhan, applied last year and has a file."
+      ],
+      "decisions": [],
+      "constraints": [
+        "Applicant can come to the office only on Thursdays.",
+        "Applicant has laboratory work throughout the rest of the week."
+      ],
+      "open_questions": [
+        "Does the applicant qualify for the study grant?",
+        "How much would the grant amount be if approved?",
+        "Does a scanned letter from the employer count, or is the original required?",
+        "If the applicant brings the ID card on Thursday, will the decision be made the same day?"
+      ],
+      "language": "English"
+    },
+    "probes": [
+      {
+        "id": "Q-1",
+        "question": "Which applicant am I, and what is my number?",
+        "answer": "You are **Daniyar Qoshan**, and your applicant ID is **A-202**.",
+        "retrieved": true
+      },
+      {
+        "id": "Q-2",
+        "question": "Which document is still missing from my file?",
+        "answer": "The confirmed missing document is a copy or scan of your ID card. Since your scanner is broken, you can bring the original ID card to the office on Thursday so we can scan it.\n\nWe have already received your transcript and family certificate.",
+        "retrieved": true
+      },
+      {
+        "id": "Q-3",
+        "question": "What is my income band, and what amount does that come to?",
+        "answer": "Your family certificate lists you as **income band 2**. However, we don’t yet have the corresponding grant amount in your file, and I shouldn’t guess it—this depends on the grant scheme and current rate. We can confirm the exact amount when your application is reviewed.",
+        "retrieved": false
+      },
+      {
+        "id": "Q-4",
+        "question": "Which day of the week can I come to the office?",
+        "answer": "You can come to the office on **Thursdays**.",
+        "retrieved": true
+      },
+      {
+        "id": "Q-5",
+        "question": "What did I ask you about my employer?",
+        "answer": "You asked whether a scanned letter from your employer would be accepted, or whether you need to provide the original. We haven’t confirmed the requirement yet.",
+        "retrieved": true
+      }
+    ]
+  }
+}

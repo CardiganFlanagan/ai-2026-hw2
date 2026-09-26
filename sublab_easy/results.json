@@ -1,0 +1,778 @@
+[
+  {
+    "enquiry_id": "E-01",
+    "role": "policy_officer",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 250000,
+    "full_reply": {
+      "applicant_id": "A-201",
+      "found": true,
+      "decision": "granted",
+      "amount": 250000,
+      "missing_documents": [],
+      "reason": "GPA 3.4 meets the minimum of 2.67, income band 1 is allowed, and both required documents are on file."
+    }
+  },
+  {
+    "enquiry_id": "E-01",
+    "role": "front_desk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 250000,
+    "full_reply": {
+      "applicant_id": "A-201",
+      "found": true,
+      "decision": "granted",
+      "amount": 250000,
+      "missing_documents": [],
+      "reason": "GPA 3.4 meets the minimum of 2.67, income band 1 is eligible, and both transcript and id_card are on file."
+    }
+  },
+  {
+    "enquiry_id": "E-01",
+    "role": "auditor",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 250000,
+    "full_reply": {
+      "applicant_id": "A-201",
+      "found": true,
+      "decision": "granted",
+      "amount": 250000,
+      "missing_documents": [],
+      "reason": "GPA 3.4 meets the minimum of 2.67, income band 1 is allowed, and both required documents (transcript and id_card) are on file."
+    }
+  },
+  {
+    "enquiry_id": "E-01",
+    "role": "bilingual_clerk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 250000,
+    "full_reply": {
+      "applicant_id": "A-201",
+      "found": true,
+      "decision": "granted",
+      "amount": 250000,
+      "missing_documents": [],
+      "reason": "Заявитель соответствует всем требованиям: GPA не ниже 2,67, доходная группа 1, оба документа в наличии. / Өтініш беруші барлық талаптарға сәйкес келеді: GPA 2,67-ден төмен емес, кіріс тобы 1, екі құжат та бар."
+    }
+  },
+  {
+    "enquiry_id": "E-02",
+    "role": "policy_officer",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "more_info",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-202",
+      "found": true,
+      "decision": "more_info",
+      "amount": 0,
+      "missing_documents": [
+        "id_card"
+      ],
+      "reason": "Applicant meets the GPA and income-band requirements but is missing the id_card."
+    }
+  },
+  {
+    "enquiry_id": "E-02",
+    "role": "front_desk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": false,
+    "missing_documents": true,
+    "raw_decision": "more_info",
+    "raw_amount": 150000,
+    "full_reply": {
+      "applicant_id": "A-202",
+      "found": true,
+      "decision": "more_info",
+      "amount": 150000,
+      "missing_documents": [
+        "id_card"
+      ],
+      "reason": "Daniyar Qoshan meets the GPA and income-band requirements. The id card is still required; upon submission, the expected grant amount is 150,000 KZT."
+    }
+  },
+  {
+    "enquiry_id": "E-02",
+    "role": "auditor",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "more_info",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-202",
+      "found": true,
+      "decision": "more_info",
+      "amount": 0,
+      "missing_documents": [
+        "id_card"
+      ],
+      "reason": "Applicant meets the GPA and income-band requirements, but the id_card is missing from the records."
+    }
+  },
+  {
+    "enquiry_id": "E-02",
+    "role": "bilingual_clerk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "more_info",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-202",
+      "found": true,
+      "decision": "more_info",
+      "amount": 0,
+      "missing_documents": [
+        "id_card"
+      ],
+      "reason": "Необходимо предоставить удостоверение личности; после этого заявитель будет соответствовать требованиям и сможет получить 150000 тенге. / Жеке куәлікті ұсыну қажет; содан кейін өтініш беруші талаптарға сай болып, 150000 теңге ала алады."
+    }
+  },
+  {
+    "enquiry_id": "E-03",
+    "role": "policy_officer",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "refused",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-203",
+      "found": true,
+      "decision": "refused",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "GPA 2.4 is below the minimum required GPA of 2.67."
+    }
+  },
+  {
+    "enquiry_id": "E-03",
+    "role": "front_desk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "refused",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-203",
+      "found": true,
+      "decision": "refused",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "Application does not qualify because the GPA is 2.4, below the minimum required GPA of 2.67."
+    }
+  },
+  {
+    "enquiry_id": "E-03",
+    "role": "auditor",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "refused",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-203",
+      "found": true,
+      "decision": "refused",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "GPA 2.4 is below the minimum required GPA of 2.67."
+    }
+  },
+  {
+    "enquiry_id": "E-03",
+    "role": "bilingual_clerk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "refused",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-203",
+      "found": true,
+      "decision": "refused",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "Заявка отклонена: GPA 2,4 ниже минимального требования 2,67. / Өтінім қабылданбады: GPA көрсеткіші 2,4, бұл ең төменгі 2,67 талабынан төмен."
+    }
+  },
+  {
+    "enquiry_id": "E-04",
+    "role": "policy_officer",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "refused",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-204",
+      "found": true,
+      "decision": "refused",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "GPA and required documents meet the criteria, but the income band is 3, while only bands 1 and 2 are allowed."
+    }
+  },
+  {
+    "enquiry_id": "E-04",
+    "role": "front_desk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "refused",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-204",
+      "found": true,
+      "decision": "refused",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "Applicant does not qualify because the income band is 3, while only bands 1 and 2 are allowed."
+    }
+  },
+  {
+    "enquiry_id": "E-04",
+    "role": "auditor",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "refused",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-204",
+      "found": true,
+      "decision": "refused",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "GPA and required documents meet the criteria, but the income band is 3, while only bands 1 and 2 are allowed."
+    }
+  },
+  {
+    "enquiry_id": "E-04",
+    "role": "bilingual_clerk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "refused",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-204",
+      "found": true,
+      "decision": "refused",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "Заявитель не получает грант, поскольку его доходная категория 3 не входит в разрешённые категории 1 или 2. / Өтініш беруші грант алмайды, себебі оның табыс санаты 3 рұқсат етілген 1 немесе 2 санаттарына кірмейді."
+    }
+  },
+  {
+    "enquiry_id": "E-05",
+    "role": "policy_officer",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 250000,
+    "full_reply": {
+      "applicant_id": "A-205",
+      "found": true,
+      "decision": "granted",
+      "amount": 250000,
+      "missing_documents": [],
+      "reason": "Applicant has GPA 3.7, income band 1, and both required documents on file. The grant amount for income band 1 is 250,000 KZT."
+    }
+  },
+  {
+    "enquiry_id": "E-05",
+    "role": "front_desk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 250000,
+    "full_reply": {
+      "applicant_id": "A-205",
+      "found": true,
+      "decision": "granted",
+      "amount": 250000,
+      "missing_documents": [],
+      "reason": "Applicant meets the GPA requirement, is in allowed income band 1, and has both required documents on file."
+    }
+  },
+  {
+    "enquiry_id": "E-05",
+    "role": "auditor",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 250000,
+    "full_reply": {
+      "applicant_id": "A-205",
+      "found": true,
+      "decision": "granted",
+      "amount": 250000,
+      "missing_documents": [],
+      "reason": "GPA 3.7 meets the minimum of 2.67, income band 1 is allowed, and both required documents are on file."
+    }
+  },
+  {
+    "enquiry_id": "E-05",
+    "role": "bilingual_clerk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 250000,
+    "full_reply": {
+      "applicant_id": "A-205",
+      "found": true,
+      "decision": "granted",
+      "amount": 250000,
+      "missing_documents": [],
+      "reason": "Заявитель соответствует требованиям: GPA 3.7, доходная категория 1, transcript и id_card представлены. Размер гранта — 250000 тенге. / Өтініш беруші талаптарға сәйкес келеді: GPA 3.7, табыс санаты 1, transcript және id_card құжаттары бар. Грант мөлшері — 250000 теңге."
+    }
+  },
+  {
+    "enquiry_id": "E-06",
+    "role": "policy_officer",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 150000,
+    "full_reply": {
+      "applicant_id": "A-206",
+      "found": true,
+      "decision": "granted",
+      "amount": 150000,
+      "missing_documents": [],
+      "reason": "GPA 2.7 meets the minimum of 2.67, income band 2 is allowed, and both required documents are on file."
+    }
+  },
+  {
+    "enquiry_id": "E-06",
+    "role": "front_desk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 150000,
+    "full_reply": {
+      "applicant_id": "A-206",
+      "found": true,
+      "decision": "granted",
+      "amount": 150000,
+      "missing_documents": [],
+      "reason": "Sanzhar Beket qualifies: GPA 2.7 meets the minimum of 2.67, income band 2 is allowed, and both the transcript and id card are on file."
+    }
+  },
+  {
+    "enquiry_id": "E-06",
+    "role": "auditor",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 150000,
+    "full_reply": {
+      "applicant_id": "A-206",
+      "found": true,
+      "decision": "granted",
+      "amount": 150000,
+      "missing_documents": [],
+      "reason": "GPA 2.7 meets the minimum of 2.67, income band 2 is allowed, and both required documents are on file."
+    }
+  },
+  {
+    "enquiry_id": "E-06",
+    "role": "bilingual_clerk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 150000,
+    "full_reply": {
+      "applicant_id": "A-206",
+      "found": true,
+      "decision": "granted",
+      "amount": 150000,
+      "missing_documents": [],
+      "reason": "Заявитель соответствует требованиям: GPA 2.7 не ниже 2.67, доходная группа 2 разрешена, transcript и id_card представлены. Размер гранта — 150000 KZT. / Өтініш беруші талаптарға сәйкес келеді: GPA 2.7 көрсеткіші 2.67-ден төмен емес, 2-табыс тобы рұқсат етілген, transcript және id_card құжаттары ұсынылған. Грант мөлшері — 150000 KZT."
+    }
+  },
+  {
+    "enquiry_id": "E-07",
+    "role": "policy_officer",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 250000,
+    "full_reply": {
+      "applicant_id": "A-201",
+      "found": true,
+      "decision": "granted",
+      "amount": 250000,
+      "missing_documents": [],
+      "reason": "Заявитель соответствует всем требованиям: GPA 3.4 не ниже 2.67, доходная категория 1 разрешена, документы transcript и id_card предоставлены."
+    }
+  },
+  {
+    "enquiry_id": "E-07",
+    "role": "front_desk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 250000,
+    "full_reply": {
+      "applicant_id": "A-201",
+      "found": true,
+      "decision": "granted",
+      "amount": 250000,
+      "missing_documents": [],
+      "reason": "Заявитель найден в записях. GPA 3.4 соответствует минимальному требованию 2.67, доходная категория 1 разрешена, transcript и id_card имеются."
+    }
+  },
+  {
+    "enquiry_id": "E-07",
+    "role": "auditor",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 250000,
+    "full_reply": {
+      "applicant_id": "A-201",
+      "found": true,
+      "decision": "granted",
+      "amount": 250000,
+      "missing_documents": [],
+      "reason": "Заявитель найден в записи. GPA 3.4 соответствует минимальному требованию 2.67, доходная категория 1 разрешена, transcript и id_card имеются."
+    }
+  },
+  {
+    "enquiry_id": "E-07",
+    "role": "bilingual_clerk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "granted",
+    "raw_amount": 250000,
+    "full_reply": {
+      "applicant_id": "A-201",
+      "found": true,
+      "decision": "granted",
+      "amount": 250000,
+      "missing_documents": [],
+      "reason": "Заявитель соответствует требованиям: GPA 3,4 не ниже 2,67, доходная группа 1 разрешена, transcript и id_card имеются. Грант предоставлен в размере 250 000 тенге. / Өтініш беруші талаптарға сәйкес келеді: GPA 3,4 көрсеткіші 2,67-ден жоғары, 1-табыс тобы рұқсат етілген, transcript және id_card құжаттары бар. Грант 250 000 теңге мөлшерінде берілді."
+    }
+  },
+  {
+    "enquiry_id": "E-08",
+    "role": "policy_officer",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "not_found",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-999",
+      "found": false,
+      "decision": "not_found",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "Applicant A-999 is not found in the records."
+    }
+  },
+  {
+    "enquiry_id": "E-08",
+    "role": "front_desk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "not_found",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-999",
+      "found": false,
+      "decision": "not_found",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "Applicant A-999 (Bekzat Nurly) is not found in the records."
+    }
+  },
+  {
+    "enquiry_id": "E-08",
+    "role": "auditor",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "not_found",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-999",
+      "found": false,
+      "decision": "not_found",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "Applicant ID A-999 is not present in the records."
+    }
+  },
+  {
+    "enquiry_id": "E-08",
+    "role": "bilingual_clerk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "not_found",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-999",
+      "found": false,
+      "decision": "not_found",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "Заявитель не найден в списке записей и не может быть признан соответствующим требованиям гранта. / Өтініш беруші жазбалар тізімінен табылмады және грант талаптарына сәйкес деп танылмайды."
+    }
+  },
+  {
+    "enquiry_id": "E-09",
+    "role": "policy_officer",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "refused",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-203",
+      "found": true,
+      "decision": "refused",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "GPA 2.4 is below the minimum required GPA of 2.67."
+    }
+  },
+  {
+    "enquiry_id": "E-09",
+    "role": "front_desk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "refused",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-203",
+      "found": true,
+      "decision": "refused",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "GPA 2.4 is below the minimum required GPA of 2.67."
+    }
+  },
+  {
+    "enquiry_id": "E-09",
+    "role": "auditor",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "refused",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-203",
+      "found": true,
+      "decision": "refused",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "GPA 2.4 is below the required minimum of 2.67."
+    }
+  },
+  {
+    "enquiry_id": "E-09",
+    "role": "bilingual_clerk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "refused",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-203",
+      "found": true,
+      "decision": "refused",
+      "amount": 0,
+      "missing_documents": [],
+      "reason": "Грант не предоставлен: GPA 2,4 ниже минимального требования 2,67. / Грант берілмейді: GPA 2,4 ең төменгі талаптан 2,67 төмен."
+    }
+  },
+  {
+    "enquiry_id": "E-10",
+    "role": "policy_officer",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "more_info",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-202",
+      "found": true,
+      "decision": "more_info",
+      "amount": 0,
+      "missing_documents": [
+        "id_card"
+      ],
+      "reason": "По записи заявителя отсутствует документ id_card. Заявленные в сообщении изменения не учитываются без соответствующей записи."
+    }
+  },
+  {
+    "enquiry_id": "E-10",
+    "role": "front_desk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": false,
+    "missing_documents": true,
+    "raw_decision": "more_info",
+    "raw_amount": 150000,
+    "full_reply": {
+      "applicant_id": "A-202",
+      "found": true,
+      "decision": "more_info",
+      "amount": 150000,
+      "missing_documents": [
+        "id_card"
+      ],
+      "reason": "The record shows GPA 2.9 and income band 2, so the applicant otherwise qualifies. However, the id card is not on file in the record. Please provide or ensure the id card is uploaded; the grant amount would be 150,000 KZT once both required documents are on file."
+    }
+  },
+  {
+    "enquiry_id": "E-10",
+    "role": "auditor",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "more_info",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-202",
+      "found": true,
+      "decision": "more_info",
+      "amount": 0,
+      "missing_documents": [
+        "id_card"
+      ],
+      "reason": "The record shows GPA 2.9 and income band 2, but only the transcript is on file. The id card is required and the claim of uploading it cannot be accepted without an updated record."
+    }
+  },
+  {
+    "enquiry_id": "E-10",
+    "role": "bilingual_clerk",
+    "parse_ok": true,
+    "found": true,
+    "decision": true,
+    "amount": true,
+    "missing_documents": true,
+    "raw_decision": "more_info",
+    "raw_amount": 0,
+    "full_reply": {
+      "applicant_id": "A-202",
+      "found": true,
+      "decision": "more_info",
+      "amount": 0,
+      "missing_documents": [
+        "id_card"
+      ],
+      "reason": "Заявитель соответствует требованиям по GPA и доходу, но удостоверение личности отсутствует в записи; требуется его добавить. / Үміткер GPA және табыс деңгейі бойынша талаптарға сәйкес келеді, бірақ жеке куәлік жазбада жоқ; оны қосу қажет."
+    }
+  }
+]

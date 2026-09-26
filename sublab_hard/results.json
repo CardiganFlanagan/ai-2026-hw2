@@ -1,0 +1,188 @@
+{
+  "cvs": [
+    {
+      "candidate_id": "story-01",
+      "full_name": "Aziza Bekova",
+      "degree": "BSc in Computer Science",
+      "graduation_year": 2025,
+      "gpa_4_scale": 3.8,
+      "gpa_original_scale": "4.0",
+      "languages": [
+        "Kazakh (fluent)",
+        "Russian (fluent)",
+        "English (C1)"
+      ],
+      "published_papers_count": 2,
+      "unpublished_papers": [],
+      "experience_months_total": 8,
+      "unpublished_experience_periods": [],
+      "ambiguities": [],
+      "_parse_ok": true
+    },
+    {
+      "candidate_id": "story-02",
+      "full_name": "Dias Yerzhanov",
+      "degree": "Bachelor's in Information Systems",
+      "graduation_year": null,
+      "gpa_4_scale": null,
+      "gpa_original_scale": null,
+      "languages": [
+        "Kazakh",
+        "Russian",
+        "English (B2)"
+      ],
+      "published_papers_count": 1,
+      "unpublished_papers": [],
+      "experience_months_total": 36,
+      "unpublished_experience_periods": [],
+      "ambiguities": [],
+      "_parse_ok": true
+    },
+    {
+      "candidate_id": "story-03",
+      "full_name": "Lyazzat Omarova",
+      "degree": "BSc in Applied Mathematics",
+      "graduation_year": 2025,
+      "gpa_4_scale": 3.68,
+      "gpa_original_scale": "4.6 out of 5.0",
+      "languages": [
+        "Kazakh",
+        "Russian",
+        "English"
+      ],
+      "published_papers_count": 1,
+      "unpublished_papers": [
+        "Second paper under review at a journal since March 2026"
+      ],
+      "experience_months_total": 14,
+      "unpublished_experience_periods": [],
+      "ambiguities": [],
+      "_parse_ok": true
+    },
+    {
+      "candidate_id": "story-04",
+      "full_name": "Tamerlan Saparov",
+      "degree": "BSc in Computer Science",
+      "graduation_year": 2026,
+      "gpa_4_scale": 3.6,
+      "gpa_original_scale": "4.0",
+      "languages": [
+        "Kazakh",
+        "Russian",
+        "English",
+        "Turkish (A2)"
+      ],
+      "published_papers_count": 1,
+      "unpublished_papers": [
+        "A survey of Kazakh NLP resources — submitted to a journal in January 2026; under review",
+        "Tokenizers considered harmful — in preparation; not submitted",
+        "Evaluation without annotation — in preparation; not submitted"
+      ],
+      "experience_months_total": 24,
+      "unpublished_experience_periods": [],
+      "ambiguities": [],
+      "_parse_ok": true
+    },
+    {
+      "candidate_id": "story-05",
+      "full_name": "Аиша Нұрланқызы",
+      "degree": "Бакалавриат по информатике",
+      "graduation_year": 2025,
+      "gpa_4_scale": 3.9,
+      "gpa_original_scale": "4.0",
+      "languages": [
+        "қазақ",
+        "орыс",
+        "ағылшын (C1)"
+      ],
+      "published_papers_count": 1,
+      "unpublished_papers": [
+        "Мақала жазылып жатыр, бірақ әлі еш жерге жіберілмеген"
+      ],
+      "experience_months_total": 6,
+      "unpublished_experience_periods": [],
+      "ambiguities": [],
+      "_parse_ok": true
+    },
+    {
+      "candidate_id": "story-06",
+      "full_name": "Nurzhan Abilov",
+      "degree": "BSc in Statistics",
+      "graduation_year": null,
+      "gpa_4_scale": null,
+      "gpa_original_scale": null,
+      "languages": [
+        "Kazakh",
+        "Russian",
+        "English"
+      ],
+      "published_papers_count": 1,
+      "unpublished_papers": [],
+      "experience_months_total": 40,
+      "unpublished_experience_periods": [],
+      "ambiguities": [
+        "Graduation status is contradictory: the applicant states both that they graduated in 2024 and that they are currently a final-year student graduating in 2026.",
+        "GPA is contradictory: 3.2 versus 3.5; the grading scale is not specified."
+      ],
+      "_parse_ok": true
+    }
+  ],
+  "ranking": [
+    {
+      "candidate_id": "story-01",
+      "scores": {
+        "academic": 5,
+        "research": 5,
+        "experience": 1
+      },
+      "weighted_total": 4.2
+    },
+    {
+      "candidate_id": "story-04",
+      "scores": {
+        "academic": 4,
+        "research": 2.5,
+        "experience": 5
+      },
+      "weighted_total": 3.75
+    },
+    {
+      "candidate_id": "story-05",
+      "scores": {
+        "academic": 5,
+        "research": 2.5,
+        "experience": 1.25
+      },
+      "weighted_total": 3.5
+    },
+    {
+      "candidate_id": "story-03",
+      "scores": {
+        "academic": 4,
+        "research": 2.5,
+        "experience": 3
+      },
+      "weighted_total": 3.35
+    },
+    {
+      "candidate_id": "story-02",
+      "scores": {
+        "academic": 2.5,
+        "research": 2.5,
+        "experience": 5
+      },
+      "weighted_total": 3.0
+    },
+    {
+      "candidate_id": "story-06",
+      "scores": {
+        "academic": 2.5,
+        "research": 2.5,
+        "experience": 5
+      },
+      "weighted_total": 3.0
+    }
+  ],
+  "winner_by_code": "story-01",
+  "prose_verdict": "При отсутствии официальных критериев гранта наиболее обоснованным победителем выглядит **Aziza Bekova (story-01)**.\n\nУ неё наиболее сильное сочетание подтверждённых показателей:\n\n- высокий GPA — **3,8 из 4,0**;\n- **2 опубликованные статьи**, больше, чем у остальных кандидатов;\n- английский на уровне **C1**;\n- завершённое бакалаврское образование;\n- отсутствие противоречий и неясностей в анкете.\n\n**Аиша Нұрланқызы (story-05)** имеет немного более высокий GPA — 3,9, а также английский C1, однако у неё только одна опубликованная статья и меньше опыта. Незавершённая статья не должна засчитываться наравне с опубликованной.\n\nУ **Lyazzat Omarova** и **Tamerlan Saparov** есть статьи на рассмотрении или в подготовке, но такие работы также нельзя считать опубликованными. Их опыт может быть достоин дополнительного веса, однако по совокупности подтверждённых достижений они уступают Aziza.\n\n**Dias Yerzhanov** имеет значительный опыт — 36 месяцев, но отсутствуют данные о GPA и годе выпуска. У **Nurzhan Abilov** ещё более серьёзная проблема: противоречивы сведения и о выпуске, и о GPA, поэтому его кандидатуру сначала нужно проверить.\n\nТаким образом, если критерии примерно равномерно учитывают академическую успеваемость, публикации, язык и надёжность данных, победить должна **Aziza Bekova**. При приоритете исключительно GPA победителем могла бы стать Аиша, а при сильном акценте на профессиональный опыт — Диас, но без уточнения правил выбор Aziza является самым устойчивым."
+}
